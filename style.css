@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+}
+main {
+  background-image: url(https://images.pexels.com/photos/747964/pexels-photo-747964.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 20px;
+  height: 90vh;
+  width: 90wh;
+  color: white;
+  position: relative;
+}
+hr {
+  width: 100px;
+}
+.absolute {
+  position: absolute;
+  font-size: 25px;
+}
+.logo {
+  top: 5px;
+  left: 5px;
+}
+.about {
+  top: 5px;
+  right: 5px;
+}
+.powered {
+  bottom: 5px;
+  left: 5px;
+}
+.seytech {
+  bottom: 5px;
+  right: 5px;
+}
+section {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
